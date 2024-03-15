@@ -77,7 +77,7 @@ export const Chart = () => {
 
   return (
     <Card>
-      <ul className="flex absolute top-2 right-2 z-40 ">
+      <ul className="flex  ">
         {Object.keys(chartConfig).map((item) => {
           return (
             <li key={item}>
@@ -135,8 +135,7 @@ export const Chart = () => {
       ) : (
         <div class="text-3xl p-20 text-gray-400 font-special">
           <p>
-            Ooops!!<br></br> API subscription expired because dont have any
-            money
+            Ooops!!<br></br> API subscription expired because admin is poor 
           </p>
           <div
             class="border-2 px-2 rounded shadow-xl cursor-pointer hover:border-[#520f5c] text-white bg-[#520f5c] mt-20"
